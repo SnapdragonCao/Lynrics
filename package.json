@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.7.3",
+    "@remix-run/react": "^1.7.3",
+    "@remix-run/serve": "^1.7.3",
+    "bcrypt": "^5.1.0",
+    "genius-lyrics-api": "^3.2.0",
+    "isbot": "^3.5.4",
+    "mongodb": "^4.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-media-recorder": "^1.6.6",
+    "remix-utils": "^3.4.0",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.7.3",
+    "@remix-run/eslint-config": "^1.7.3",
+    "eslint": "^8.23.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
